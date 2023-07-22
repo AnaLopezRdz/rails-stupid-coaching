@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+body{
+  padding: 0 24px;
+}
+cite:before{
+  content: "-"
+}
+blockquote{
+  border-left: 6px solid #ddd;
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+  background-color:white;
+  /* background-color: rgb(251, 251, 201); */
+  font-weight: 400;
+}
+
+.yellow{
+  background-color: rgb(251, 251, 201);
+}
